@@ -8,6 +8,9 @@
             "role": "Developer"
         }
     ],
+    "bin": [
+        "bin/arc"
+    ],
     "config": {
         "optimize-autoloader": true,
         "sort-packages": true
