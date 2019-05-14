@@ -8,6 +8,15 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sedmsk/libphutil"
+        }
+    ],
+    "require": {
+        "sd/libphutil": "*"
+    },
     "bin": [
         "bin/arc"
     ],
