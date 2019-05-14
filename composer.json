@@ -1,5 +1,8 @@
 {
     "name": "sd/arcanist",
+    "support": {
+        "issues": "https://github.com/sedmsk/arcanist/issues"
+    },
     "authors": [
         {
             "name": "Igor Finagin",
