@@ -19,6 +19,7 @@ final class ArcanistBlindlyTrustHTTPEngineExtension
   }
 
   public function shouldTrustAnySSLAuthorityForURI(PhutilURI $uri) {
+    return true;
     $domain = $uri->getDomain();
     $domain = phutil_utf8_strtolower($domain);
     return isset($this->domains[$domain]);
